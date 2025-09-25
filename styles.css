@@ -1,0 +1,34 @@
+body{
+    margin: 20px auto;
+}
+#changeMe{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    text-align: center;
+    
+}
+.hidden{
+    display: none;
+}
+#dropdownList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background: #eee;
+  width: 100px;
+  border: 1px solid #ccc;
+}
+
+#dropdownList li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+#dropdownList li:hover {
+  background: #ddd;
+}
+#errorMessages{
+    color: red;
+    font-weight: bolder;
+}
